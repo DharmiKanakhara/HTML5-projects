@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        svg{
+            padding: 40px 0;
+        }
+        .square{
+            fill: orange;
+            stroke-width: 2px;
+            stroke: black;
+        }
+        polygon{
+            fill: rgb(244, 194, 43);
+            stroke-width: 3px;
+            stroke-linejoin: round;
+            stroke: rgb(250, 163, 3);
+        }
+        .rect{
+            fill: rgb(234, 39, 85);
+            stroke: rgb(39, 36, 36);
+            stroke-width: 2px;
+        }
+    </style>
+</head>
+<body>
+    <svg height="250px" width="365px" style="border: 1px solid black;">
+        <rect width="100" height="100" x="10" y="10" rx="20" ry="20" class="square"/>
+        <polygon points="175 10,120 110,220 110"/>
+        <rect width="100" height="150" x="250" y="10" rx="20" ry="20" class="rect"/>
+    </svg>
+</body>
+</html>
