@@ -1,0 +1,105 @@
+*
+{
+    box-sizing: border-box;
+}
+.row
+{
+    background: rgb(174, 223, 243);
+    padding: 30px;
+    width: 1000px;
+    margin: 50px auto;
+}
+.col h1
+{
+    border-bottom: 1px solid rgb(176, 175, 175);
+    padding-bottom: 20px;
+}
+.col1
+{
+    display: flex;
+    background: #fff;
+    padding: 20px;
+}
+.add,.con
+{
+    margin-right: 30px;
+    width: 250px;
+    font-size: 20px;
+}
+.c1
+{
+    margin-top: 70px;
+    color: red;
+    margin-bottom: 6px;
+}
+.c2
+{
+    color: rgb(10, 141, 202);
+}
+.c1 i,.c2 i{
+    margin-right: 10px;
+}
+.col2
+{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px;
+}
+.form
+{
+    width: 50%;
+}
+.form input,textarea
+{
+    width: 200px;
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 15px;
+    &::placeholder
+    {
+        padding-left: 15px;
+    }
+}
+textarea
+{
+    height: 80px;
+    display: block;
+    padding-top: 10px;
+    width: 90%;
+}
+button
+{
+    background: red;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.i
+{
+    width: 48%;
+}
+.icon
+{
+    margin-top: 20px;
+}
+.icon i
+{
+    font-size: 25px;
+    margin-right: 5px;
+}
+.icon .f
+{
+    color: rgb(0, 115, 255);
+}
+.icon .t
+{
+    color: rgb(105, 195, 251);
+}
+.icon .l
+{
+    color: rgb(3, 96, 172);
+}
